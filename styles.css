@@ -78,7 +78,7 @@
 
 .hero-main .sign-up {
     background-color: #3882f6;
-    padding: 5px 18px;
+    padding: 5px 30px;
     display: inline-block;
     margin-bottom: 10px;
     border-radius: 6px;
@@ -170,4 +170,48 @@
 
     border: #1f2937 1px solid;
     width: 750px;
+}
+
+.body .cta {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0px 20px;
+
+    border: 1px solid red;
+    min-height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.cta .container {
+    background-color: #3882f6;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 150px;
+    flex-grow: 1;
+}
+
+.cta .cta-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta a {
+    text-decoration: none;
+    color: white;
+}
+
+.cta .cta-sign-up {
+    border: white 2px solid;
+    border-radius: 6px;
+    padding: 5px 30px;
+    font-weight: bold;
 }
